@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-free-6.1.0-web/css/all.css">
+    <title>Juan Tique</title>
+</head>
+<body>
+    <header id="inicio">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a href="#"class="navbar-brand">Juan Tique</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-navbar" aria-controls="contenido-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="contenido-navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#final" class="nav-link">Estudio</a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="#" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="dropProyectos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Proyectos
+                         </a>
+                         <ul class="dropdown-menu" aria-labelledby="dropProyectos">
+                             <li>
+                                 <a href="#" class="dropdown-item">proyecto 1</a>
+                             </li>
+                             <li>
+                                 <a href="#" class="dropdown-item">proyecto 2</a>
+                             </li>
+                             <li>
+                                 <a href="#" class="dropdown-item">proyecto 3</a>
+                             </li>
+                         </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    </header>
+
+<section class="py-3" id="main-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="d-flex justify-content-center">
+                    <img src="./assets/imagenes/foto.jpeg" alt="mi foto" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h1 class="text-end" id="cambio" class="text-uppercase pt-2 pt-sm-0">Juan Tique</h1>
+                <h2 class="text-end">Desarrollador de software</h2>
+                <p class="text-end">Desarrollador de aplicaciones web, móviles y de escritorio</p>
+                <p>Hola soy Juan David Tique Tique naci el 30 de octubre del 2004, tengo 17 años, soy de Ibagué - Tolima, 
+                    vivo com mis padres y mi hermano. Me gradue de la I.E.T. Carlos Lleras Restrepo, 
+                    tambien estoy certificado como tecnico en sistemas, en 2022 estudio Tecnologo en ADSI</p>
+                <ul class="list-group list-group-horizontal d-flex justify-content-center">
+                    <li class="list-group-item">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f fa-2x" style="color: black;"></i>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-2x" style="color: black;"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        30 octubre 2004
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <a href="tel:+573202831624" class="text-decoration" style="color: black;">320 283 1624</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:jdtique79@misena.edu.co" class="text-decoration-none" style="color: black;">jdtique79@misena.edu.co</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Ibagué, Tolima, Colombia
+                    </li>
+                </ul>
+            </div>
+        </div>
+   </div>
+</section>
+
+<section class="py-3" id="estudios">
+    <div class="container">
+        <h1>Estudios</h1>
+        <div class="accordion" id="acordeonEstudios">
+            <div class="accordion-item">
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="uno">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#estudio1" aria-expanded="false" aria-controls="uno">
+                  Teconologo en Analisis y desarrollo de sistemas de información
+                </button>
+              </h2>
+              <div id="estudio1" class="accordion-collapse collapse" aria-labelledby="uno" data-bs-parent="#acordeonEstudios">
+                <div class="accordion-body">
+                  <span class="fw-bold">Servicio Nacional de Aprendizaje Sena</span> 2022
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="dos">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#estudio2" aria-expanded="false" aria-controls="dos">
+                  Tecnico en Sistemas
+                </button>
+              </h2>
+              <div id="estudio2" class="accordion-collapse collapse" aria-labelledby="dos" data-bs-parent="#acordeonEstudios">
+                <div class="accordion-body">
+                    <span class="fw-bold">Servicio Nacional de Aprendizaje Sena</span> 2021
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="tres">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#estudio3" aria-expanded="false" aria-controls="tres">
+                  Bachillerato
+                </button>
+              </h2>
+              <div id="estudio3" class="accordion-collapse collapse" aria-labelledby="tres" data-bs-parent="#acordeonEstudios">
+                <div class="accordion-body">
+                  <span class="fw-bold">I.E.T. Carlos Lleras Restrepo</span> 
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</section>
+
+<section class="py-3" id="Habiidades" >
+    <div class="container #final">
+        <h1>Habilidades</h1>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">PHP</div>
+        </div>
+        <div class="progress mt-2">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+        </div>
+        <div class="progress mt-2">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+        </div>
+        <div class="progress mt-2">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <div class="progress mt-2">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+   
+    </div>
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
